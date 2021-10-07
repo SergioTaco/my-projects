@@ -4,7 +4,7 @@ app = Flask (__name__)
 
 @app.route('/')
 def head():
-    first = 'This is my first conditionm experience'
+    first = 'This is my first conditions experience'
     return render_template('index.html', message = first)
 
 @app.route('/sergio')
